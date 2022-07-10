@@ -1,0 +1,35 @@
+{
+  "name": "receipe-collection",
+  "version": "1.0.0",
+  "description": "A dummy project for collection of different recipes. This project is going to be developed using Node.js, Express.js, MongoDB, EJS, HTML, CSS, and Javascript (May be also Socket.IO may be at later stage)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurava16fc/receipe-collection.git"
+  },
+  "keywords": [],
+  "author": "Gaurav Lal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurava16fc/receipe-collection/issues"
+  },
+  "homepage": "https://github.com/gaurava16fc/receipe-collection#readme",
+  "dependencies": {
+    "alertifyjs": "^1.13.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "moment": "^2.29.4",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
